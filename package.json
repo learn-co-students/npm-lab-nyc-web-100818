@@ -1,0 +1,30 @@
+{
+  "name": "npm-lab-nyc-web-100818",
+  "version": "1.0.0",
+  "description": "test file",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "learn-browser": "^0.1.17",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahpai/npm-lab-nyc-web-100818.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "sarah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahpai/npm-lab-nyc-web-100818/issues"
+  },
+  "homepage": "https://github.com/sarahpai/npm-lab-nyc-web-100818#readme"
+}
